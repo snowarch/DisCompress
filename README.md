@@ -67,6 +67,10 @@ You will see:
 - A percentage-based progress bar.
 - A final dialog showing exactly where the compressed file was saved.
 
+## Screenshot
+
+![DisCompress screenshot](./preview.png)
+
 ## License
 
 MIT. See the `LICENSE` file.

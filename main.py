@@ -245,7 +245,7 @@ class VideoCompressorWindow(Gtk.Window):
         self.entry_output.set_placeholder_text("Output file path")
         out_row.pack_start(self.entry_output, True, True, 0)
 
-        btn_out = Gtk.Button(label="Cambiar")
+        btn_out = Gtk.Button(label="Change")
         btn_out.connect("clicked", self.on_output_clicked)
         out_row.pack_start(btn_out, False, False, 0)
 
