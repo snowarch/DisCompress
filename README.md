@@ -27,6 +27,21 @@ Example on Debian/Ubuntu-based systems:
 sudo apt install python3-gi gir1.2-gtk-3.0 ffmpeg
 ```
 
+Example on Arch Linux (pacman):
+
+```bash
+sudo pacman -S python-gobject gtk3 ffmpeg
+```
+
+Example on Fedora (dnf):
+
+```bash
+sudo dnf install python3-gobject gtk3 ffmpeg
+```
+
+On other distributions, install the PyGObject/GTK3 bindings for Python 3 and ffmpeg/ffprobe
+from your package manager using equivalent package names.
+
 ## Run
 
 ```bash
@@ -51,7 +66,6 @@ You will see:
 - A percentage-based progress bar.
 - A final dialog showing exactly where the compressed file was saved.
 
-## Project status
+## License
 
-This repository is ready to be pushed to GitHub as a small utility. You may want to
-add a LICENSE file of your choice before publishing.
+MIT. See the `LICENSE` file.
