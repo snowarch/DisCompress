@@ -4,6 +4,10 @@ DisCompress is a GTK3 desktop app that makes it easy to compress videos for Disc
 It is a thin, dark-themed frontend around `ffmpeg` + `ffprobe`, with Discord-specific
 size presets and live progress.
 
+## Screenshot
+
+![DisCompress screenshot](./preview.png)
+
 ## Features
 
 - Drag & drop a video directly onto the window.
@@ -66,10 +70,6 @@ You will see:
 - A live `ffmpeg` log.
 - A percentage-based progress bar.
 - A final dialog showing exactly where the compressed file was saved.
-
-## Screenshot
-
-![DisCompress screenshot](./preview.png)
 
 ## License
 
