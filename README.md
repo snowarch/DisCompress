@@ -45,7 +45,8 @@ from your package manager using equivalent package names.
 ## Run
 
 ```bash
-cd /home/snowf/CascadeProjects/video-compressor-gtk
+git clone https://github.com/snowarch/DisCompress.git
+cd DisCompress
 python3 main.py
 ```
 
