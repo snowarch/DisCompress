@@ -1,0 +1,4 @@
+# GTK app requirements
+# It is recommended to install PyGObject / GTK3 from system packages, for example:
+#   sudo apt install python3-gi gir1.2-gtk-3.0
+# ffmpeg and ffprobe must be installed and available in PATH.
